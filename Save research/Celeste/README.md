@@ -67,3 +67,4 @@ Format is the same on all platforms. XML document:
   <!-- information on stats removed due to length, can be ignored or copied from 100% save -->
 </SaveData>
 ```
+There is an existing save *creator* in Python at https://github.com/pikzelgames/celeste-save-maker/blob/master/celeste-save-maker.py, however it uses string interpolation instead of proper XML modification, so can't be used to edit saves.
